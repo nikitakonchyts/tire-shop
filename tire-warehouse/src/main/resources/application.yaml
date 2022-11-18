@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: tire-warehouse
+
+eureka:
+  client:
+    serviceUrl:
+     defaultZone: http://localhost:8761/eureka
+#  instance:
+#    preferIpAddress: true
+#    lease-renewal-interval-in-seconds: 30
